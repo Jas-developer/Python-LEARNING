@@ -43,5 +43,21 @@ print(type(multiTypes[4]))
 
 #creating list constructor 
 multiTypes = list(("apple","banana","orange"))
-print(multiTypes)
+print(type(multiTypes))
 
+#duplicates meaning they can have items with the same value
+#tuple are declared with circle bracket 
+data_collector = ("list","tuple","set","dictionary")
+print(type(data_collector))
+print(len(data_collector))
+#tuple items can be of any data types
+#when creating a construction for any collection data types
+#you must enclosed them with rounded bracket
+
+#accessing range of the list
+
+list_range_names = ["Rojon","Dave","Dev","Ken","James"]
+#printhing the name james
+print(list_range_names[-1])
+#printing the name Ken
+print(list_range_names[-2])
