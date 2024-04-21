@@ -27,3 +27,21 @@ print(flordiv) #result is  2
 
 listSample = ["apple","banana","cheery"]
 print(listSample)
+#print banana
+print(listSample[1])
+#change banana to orange
+listSample[1] = "orange"
+print(listSample)
+#print the length or the number amoount of the list
+print(len(listSample));
+
+# list with multiple types of different data types
+multiTypes = [1,"Data", True, False, 2.0]
+#printing the multi types
+print(type(multiTypes))
+print(type(multiTypes[4]))
+
+#creating list constructor 
+multiTypes = list(("apple","banana","orange"))
+print(multiTypes)
+
