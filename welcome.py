@@ -1,54 +1,29 @@
-#PYTHON ASSIGNMENT OPERATORS 
-
+#PYTHON ARITHMETIC OPERATORS 
 #addition 
 add = 10 + 5
-print(add)
+print(add) # result is 15
 #substraction
 substraction = 10 - 5
-print(substraction)
+print(substraction) # result is 5
 #multiplication 
 multiplication = 10 * 5
-print(multiplication)
+print(multiplication) # result is 50
 #division
 division = 10 / 5
-print(division)
+print(division) # result is 2 
 #modulus
 modulus = 10 % 5
-print(modulus)
+print(modulus) # result is 0
 #Exponentiation
 exponentiaton = 10 ** 5
-print(exponentiaton)
+print(exponentiaton) # result is  
 #floor division
 flordiv = 10 // 5
-print(flordiv)
+print(flordiv) #result is  2
+
+#python list
+#list are customizable 
 
 
-
-#PYTHON COMPARISON OPERATORS 
-
-#equal
-#not equal
-#greater than 
-#less than 
-#greater than or equal to 
-#less than or equal to
-
-#PYTHON LOGICAL OPERATORS
-
-
-#and
-#or
-#not
-
-#PYTHON INDENTITY OPERATORS
-
-#is
-#is not
-
-#PYTHON MEMBERSHIP OPERATORS
-
-#in
-#not in 
-
-#PYTHON BITWISE OPERATORS
-
+listSample = ["apple","banana","cheery"]
+print(listSample)
