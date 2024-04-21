@@ -61,3 +61,30 @@ list_range_names = ["Rojon","Dave","Dev","Ken","James"]
 print(list_range_names[-1])
 #printing the name Ken
 print(list_range_names[-2])
+#printing from rojon to ken
+print(list_range_names[0:5]) #range of indexes
+
+#check if the name do exist 
+
+if "Dev6" in list_range_names:
+    confirmation_string = "is here, Existing"
+    print("Dev",confirmation_string)
+else:
+    print("No that mothefucker do not exist at all");
+    
+    
+#list change a range of item values
+
+this_list = ['Software Engineer', 'Accounting Staff', 'Data Scientist'];
+
+if "Data Scientist" in this_list:
+    this_list[-1] = "Data Engineer"
+    
+print(this_list)
+
+this_list[:2] = ["Data Engineer","Data Analyst"]
+print(this_list)
+
+#the data engineer is double so we gonnna insert a new different data
+this_list.insert(2,"Data Scientist")
+
