@@ -1,12 +1,27 @@
 #PYTHON ASSIGNMENT OPERATORS 
 
 #addition 
-#substraction 
+add = 10 + 5
+print(add)
+#substraction
+substraction = 10 - 5
+print(substraction)
 #multiplication 
-#divition
+multiplication = 10 * 5
+print(multiplication)
+#division
+division = 10 / 5
+print(division)
 #modulus
+modulus = 10 % 5
+print(modulus)
 #Exponentiation
-#floor divistiomn 
+exponentiaton = 10 ** 5
+print(exponentiaton)
+#floor division
+flordiv = 10 // 5
+print(flordiv)
+
 
 
 #PYTHON COMPARISON OPERATORS 
