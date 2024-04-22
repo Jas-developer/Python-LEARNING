@@ -87,4 +87,69 @@ print(this_list)
 
 #the data engineer is double so we gonnna insert a new different data
 this_list.insert(2,"Data Scientist")
+#printing the new list
 
+print(this_list);
+
+this_list[-1] = "Web Developer"
+#print the new 
+print(this_list);
+#add Devops Engineer
+addNew = ["Devops Engineer","Network Engineer"]
+this_list.extend(addNew) #extend will concatinate 2 arrays 
+this_list.append("I.T Support")
+print(this_list)
+
+#declaring tupple then extend it to my list
+moreJob = ("Human Resource", "Software Developer")
+this_list.extend(moreJob)
+print(this_list)
+
+#remove 
+this_list.remove(this_list[-3])
+print(this_list)
+
+this_list.pop(-2)
+#printhing the list without HR
+print(this_list)
+
+del this_list[-2]
+print(this_list)
+
+check_length = len(this_list)
+#printhing the list with the number of length 
+print(check_length)    
+#dictionaries are just like objects 
+
+personInformation = {
+  "names": ["Jason","John","Evaristo"],
+  "cars": ["Ford","Honda","Civic"],
+  "addresses": ["Posadas", "Devera", "Sara"],
+  "Job": ["Software Engineer", "Data Engineer", "Data Scientist"]
+};
+
+#objects in python is called dictionary
+print(personInformation["names"][0]);
+
+#this concatination
+jason = f"Hi my name is {personInformation['names'][0]} and my job is a {personInformation['Job'][0]}"
+print(jason)
+
+#if and else / else if in python 
+
+a = 23
+b = 24
+
+#if and else 
+if a > b:
+    person_a = personInformation["names"][0]
+    print(person_a)
+elif b > a:
+    print(personInformation["names"][1])
+    
+#while loop   
+i = 1
+while i <= 6:
+    print(i)
+    i += 1
+    
