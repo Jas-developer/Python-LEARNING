@@ -153,3 +153,32 @@ while i <= 6:
     print(i)
     i += 1
     
+#for loop
+fruits = ["apple","banana","cherry"];
+
+for x in fruits:
+    print(x) #it will print all the contents of fruits list
+    
+#looping through a string
+work = "softwareengineer"
+
+for x in work:
+    print(x)
+    
+    
+for x in fruits:
+    print(x)
+    if x == "banana":
+        break
+    
+for x in fruits:
+    if x == "banana":
+        break
+    print(x)
+    
+    
+#continue will basically skip the target index
+for x in fruits:
+    if x == "banana":
+        continue
+    print(x)
