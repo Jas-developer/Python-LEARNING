@@ -182,3 +182,8 @@ for x in fruits:
     if x == "banana":
         continue
     print(x)
+    
+#learning range in loop 
+
+for x in range(2,12,6):
+    print(x)
