@@ -184,6 +184,14 @@ for x in fruits:
     print(x)
     
 #learning range in loop 
-
 for x in range(2,12,6):
     print(x)
+    
+    
+#25/4/24
+
+#creating a function in python 
+def my_name():
+    print("Hi, my name is Jason Evaristo")
+
+my_name();
