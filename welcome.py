@@ -189,9 +189,31 @@ for x in range(2,12,6):
     
     
 #25/4/24
-
 #creating a function in python 
 def my_name():
     print("Hi, my name is Jason Evaristo")
 
 my_name();
+
+#function with an arguments 
+def my_function(fname):
+    print(fname)
+    
+print("Printing my fullname")
+my_function("Jason Evaristo")
+
+
+#printing function with 2 arguments
+def full_name(fname,lname):
+    print(fname + " " + lname)
+    
+#calling the function with 2 arguments 
+full_name("Software", "Engineeer")
+
+#arbitrary arguments
+def my_arbitrary(*param): #arbitrary arguments/parameteris very important 
+    myfunc = param[2]
+    print(myfunc)
+    
+my_arbitrary("Jason","Rojon","Daras","Software")
+#ending of 4-25-24 day of learning python programming
