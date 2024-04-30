@@ -1,4 +1,4 @@
-print("Hello World!")
+
 #learning lambda 4/30/24
 fullName = lambda firstNAme,lastName : firstNAme + " "+ lastName
 print(fullName("Jason", "Evaristo"))
@@ -22,3 +22,24 @@ print(printThis)
 
 
 #LEARNING PYTHON ARRAYS
+#array are used to store multiple values in one single variable
+cars = ["Ford","Volvo","MBW"]
+
+cars.append("Honda")
+
+for x in cars:
+    if(x == "Volvo"):
+        x = "Kawasaki"
+        cars.append("Yamaha")
+        
+
+def returnAllData():
+    data = []
+    for x  in cars:
+        data.append(x)
+    return data
+
+#extract the data from the function
+
+for x in returnAllData():
+    print(x)
