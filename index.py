@@ -77,3 +77,39 @@ fullName = f"My fullName is {firstName} {lastName} and I want to be a {p1.dream}
 print("Currently Learning OOP in python")
 print(fullName)
 
+#using init in a class
+class personInformation:
+    def __init__(self,name,age,location,school,course,goal):
+        #created a constructor
+        self.name = name
+        self.age = age
+        self.location = location
+        self.school = school
+        self.course = course
+        self.goal = goal
+        
+        
+#creating an object 
+information = personInformation("Jason Evaristo",22,"Davao City","Interface Computer College","Computer Science","Data Engineer")
+#storing the object into list/array
+informationList =[information.name, information.age, 
+                  information.location,information.school,information.course,
+                  information.goal]
+
+informationObject = {
+    "name":information.name,
+    "age":information.age,
+    "location":information.location,
+    "school":information.school,
+    "course":information.course,
+    "goal":information.goal
+}
+#printing all the experment i made
+
+print(informationList) #printhing the array i made
+print(informationObject)#printing the object i made
+
+#looping the information list
+
+for x in informationList:
+    print(x)
