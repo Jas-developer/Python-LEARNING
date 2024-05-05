@@ -113,3 +113,28 @@ print(informationObject)#printing the object i made
 
 for x in informationList:
     print(x)
+    
+#5/5/24
+#learning will start now
+#LEARNING OBJECTS
+
+#learning the constructor again in python 
+class Person:
+    def __init__(self,name,age):
+        self.fullName = name
+        self.myAge = age
+        
+    def fulllName(name):
+        return f"Hello My Name is {name}"
+        
+    def __str__(self):
+        if(len(self.fullName) >= 5 and self.myAge is not None):
+            return f"Hello my Name is {self. fullName} and I'm {self.myAge} years of age"
+        else:
+            return 'Please provide a proper name'
+        
+        
+personA = Person("Jaso", 22)
+#printing my information as a person
+print(Person.fulllName("Jason Evaristo"))
+    
