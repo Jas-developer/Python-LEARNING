@@ -141,7 +141,7 @@ print(Person.fulllName("Jason Evaristo"))
 
 
 #learning Inheritance
-class PersonInformation:
+class PersonInformation:#parent class
     def __init__(self, fname, lname):
          self.firstname = fname
          self.lastname = lname
@@ -153,8 +153,17 @@ x = PersonInformation("Jason","Evaristo")
 x.printname()
 
 #send the parent class a paremeter to be inheret by another class
-class Student(PersonInformation):
+class Student(PersonInformation):#child class
     def __init__(self, fname, lname):
-        super().__init__(fname,lname)
+        super().__init__(fname,lname)#to inheret all the methods and properties of the parent class
         self.graduationyear = 2019
             
+class Location(PersonInformation):
+    def __init__(self, fname, lname):
+        super().__init__(fname, lname)
+    
+    def Location(place):
+        return f"at {place}"
+    
+    
+person = Location("Jason","Evaristo").Location("Davao City")
