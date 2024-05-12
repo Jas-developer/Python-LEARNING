@@ -30,3 +30,23 @@ plane1 = Plane("Boeing", "747")
 
 for x in (car1,boat1,plane1):
     x.move()
+    
+    
+#inheretance polymorphism
+class Vechicle:
+    def __init__(self,brand,model):
+        self.brand = brand
+        self.model = model
+        
+    def move(self):
+        print("Move!")
+        
+class Car(Vechicle):
+    pass #putting pass here because it will throw an error otherwise
+
+class Boat(Vechicle):
+    def move(self):
+        print("Sail!")
+
+class Plane(Vechicle):
+    print("Fly!")
