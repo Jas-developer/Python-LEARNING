@@ -9,9 +9,23 @@ myfunc()
 
 #function inside the function 
 def myInnerFunction():
-    x = 300
-    def myinnerfunc():
+   global x 
+   x = 301
+def myinnerfunc():
         print(f"The result of inner function is {x}")
-    myinnerfunc()
+        myinnerfunc()
     
 myInnerFunction()
+
+turnGlobal = x
+print(turnGlobal)
+#now this is the global scope
+
+global name
+name = "Jason Evaristo"
+
+testGlobal = f"Testingt the global variable which is {name}"
+def display(param):
+    print(param)
+    
+display(testGlobal)
