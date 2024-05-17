@@ -50,3 +50,4 @@ class Boat(Vechicle):
 
 class Plane(Vechicle):
     print("Fly!")
+    
