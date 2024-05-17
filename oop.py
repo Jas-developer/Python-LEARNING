@@ -11,7 +11,7 @@ class Person:
         self.work = work
         self.gender = gender
 
-personA = Person("James", 21, "Accountant","Bayot")
+personA = Person("Jameson", 56, "Inigat","Bayot Gyud")
 
 employeeA = f"{personA.name} is a {personA.age} years old {personA.work} and he is {personA.gender}"
 print(employeeA)
@@ -28,6 +28,6 @@ class PersonStr:
         print(f"The name of the person is: {self.name}")
     
 p1 = PersonStr("James",25) #the str function/method manipulate the data that should be return by the class
-print(p1)
+#print(p1)
 
 p1.PersonName()
