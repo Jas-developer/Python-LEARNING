@@ -26,3 +26,6 @@ captitals.update({'Germany':"Berlin"})
 
 for x in captitals.items():
     print(x)
+    
+    
+    
